@@ -1,0 +1,26 @@
+main: org.eterst.lafincatools.LaFincaTools
+name: LaFincaTools
+version: 1.0
+description: Herramientas Admin de La Finca
+api-version: 1.16
+author: Eters
+prefix: lft
+commands:
+  lafincatools:
+    description: Ayuda
+    permission: br.use
+    aliases:
+      - lft
+      - lafinca
+      - lafincatools
+      - lftools
+    permission-message: No tienes este permiso!
+permissions:
+  lft.use:
+    description: Allow use
+    default: op
+  lft.*:
+    description: General permission for all permissions
+    default: op
+    children:
+      lft.use: true

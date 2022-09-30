@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FirTotems:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FirTotems_jar</output-path>
+    <root id="archive" name="FirTotems.jar">
+      <element id="module-output" name="FirTotems.main" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>

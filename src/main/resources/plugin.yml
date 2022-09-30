@@ -1,0 +1,25 @@
+main: org.eterst.firtotems.FirTotems
+name: FirTotems
+version: 1.0
+description: Totems con probabilidad
+api-version: 1.16
+author: Eters
+prefix: ft
+commands:
+  firtotems:
+    description: Use command
+    permission: ft.use
+    aliases:
+      - ft
+      - firt
+      - ftotems
+    permission-message: No tienes este permiso!
+permissions:
+  ft.use:
+    description: Allow use
+    default: op
+  ft.*:
+    description: General permission for all permissions
+    default: op
+    children:
+      ft.use: true
